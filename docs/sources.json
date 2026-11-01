@@ -1,0 +1,37 @@
+{
+  "auditedOn": "2026-10-31",
+  "route": "Original source-informed independent editor. No native reverse-engineered binary; no CapCut host testing.",
+  "sources": [
+    {
+      "title": "CapCut connected editing",
+      "url": "https://www.capcut.com/tools/capcut-x-codex",
+      "kind": "Official live product page",
+      "finding": "Advertises chat-based editable drafts, timelines, wording/caption styles/timing. Those capabilities preexist this prototype; availability varies."
+    },
+    {
+      "title": "capcut-cli materials schema",
+      "repository": "https://github.com/renezander030/capcut-cli",
+      "commit": "6521c89c0b1b42157e95dd52e98b4ba50487d294",
+      "url": "https://github.com/renezander030/capcut-cli/blob/6521c89c0b1b42157e95dd52e98b4ba50487d294/docs/draft-schema/02-materials.md",
+      "sha256": "a64a2262728ac7f9b5269673235c093d380705123267bde7c8235099c3706450",
+      "license": "MIT, reference-only in this distribution",
+      "finding": "Public description of JSON-encoded text content, material references, timing and UTF-16 code-unit style ranges; historical doubled-range writing documented. No source text copied."
+    },
+    {
+      "title": "pyCapCut inspected tree",
+      "repository": "https://github.com/GuanYixuan/pyCapCut",
+      "commit": "ec61408d9f039c4045f946370bb35746b89b2479",
+      "url": "https://github.com/GuanYixuan/pyCapCut/tree/ec61408d9f039c4045f946370bb35746b89b2479",
+      "license": "No LICENSE/setup license declaration found in inspected tree; reference-only, no redistribution",
+      "finding": "Existing format-preserving replacement/template functionality means generic replacement is baseline capability, not a novel claim."
+    }
+  ],
+  "testFixture": "Original invented draft-shaped JSON, not an app-authored compatibility fixture",
+  "unverified": [
+    "Native CapCut reopen",
+    "Fonts and rendering",
+    "Whole-project-folder completeness",
+    "Exact current Windows stable/beta support",
+    "Actual official plugin availability on this machine"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Caption Transactions",
+  "executable": "CaptionTransactions",
+  "version": "0.1.0",
+  "entry": "app.html",
+  "testSelector": "#preview",
+  "docs_files": [
+    "app.html",
+    "app.css",
+    "app.js",
+    "index.html",
+    "sources.json",
+    "verification.json",
+    "browser-verification.json",
+    "desktop-verification.json",
+    "screenshots/workbench.png",
+    "screenshots/mobile.png"
+  ]
+}

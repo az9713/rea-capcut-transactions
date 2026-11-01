@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "checks": 14,
+  "details": [
+    "Synthetic draft loads, opaque materials remain visible, all9 timeline segments shown",
+    "Atomic preview has3 materials /4 segment uses, explicit before-after and unchanged checkpoint",
+    "Apply commits one durable transaction and changes canonical checkpoint",
+    "Actual browser candidate download preserves tracks/media and maps exact style endpoints",
+    "Downloaded durable project reimports; undo state retains redo future through reload",
+    "Actual downloaded manifest replays against exact original baseline",
+    "Explicit mixed-rich target refuses the whole transaction without partial mutation",
+    "Changing input during asynchronous hash validation discards stale preview",
+    "Equal-offset policy does not silently permit length-changing edits",
+    "Mobile390px viewport has no horizontal page overflow",
+    "Imported text is rendered inert through textContent; no injected element",
+    "Duplicate-key JSON import refuses without replacing current draft",
+    "file:// offline workbench executes real bundled transaction engine",
+    "Guide images load and no JavaScript page errors across all checks"
+  ],
+  "renderer": "Playwright Chromium",
+  "appSha256": "1e581907aec577addf52b97ab4f929008e96308e1401c6c35b47cd206d0c0bae",
+  "nativeCapCutVerified": false
+}

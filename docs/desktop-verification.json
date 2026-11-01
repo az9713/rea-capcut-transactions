@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "app": "Caption Transactions",
+  "renderer": {
+    "title": "Caption Transactions — independent draft editor",
+    "heading": "Correct the term.Keep the timeline.",
+    "node": "undefined",
+    "selector": true
+  },
+  "scope": "Packaged renderer load and isolation smoke; app-specific core/browser tests separate",
+  "nativeCapCutVerified": false,
+  "host": "Electron45.2.1 win32-x64",
+  "limit": "Renderer load/isolation smoke only; app-specific behavior verified separately in Chromium."
+}

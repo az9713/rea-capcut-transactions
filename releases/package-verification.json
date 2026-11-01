@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "archives": [
+    {
+      "name": "CaptionTransactions-0.1.0-source.zip",
+      "entries": 30,
+      "crc": true
+    },
+    {
+      "name": "CaptionTransactions-0.1.0-web.zip",
+      "entries": 10,
+      "crc": true
+    },
+    {
+      "name": "CaptionTransactions-0.1.0-win-x64.zip",
+      "entries": 88,
+      "crc": true
+    }
+  ],
+  "textFilesScanned": 121,
+  "peFilesScanned": 7,
+  "personalPrefixHits": [],
+  "sourceAndRendererEquality": true,
+  "extractedWindowsExecutableSmokePassed": true,
+  "nativeCapCutVerified": false,
+  "appSha256": "1e581907aec577addf52b97ab4f929008e96308e1401c6c35b47cd206d0c0bae",
+  "browserChecks": 14,
+  "coreTests": 25
+}

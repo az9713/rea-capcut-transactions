@@ -1,0 +1,3 @@
+edb7d7f9984033b0cdb45679219d138d64ad88f0b021a6eb6ff68fa4106ddd68  CaptionTransactions-0.1.0-win-x64.zip
+877b67de734871ae2990e8572be8f1ae5789d6a8825aab0f204b7849eedd308b  CaptionTransactions-0.1.0-source.zip
+25edd66d587ddb269a2cc48a178fff8c1605d74a4df0b048adbe41b9c22cce21  CaptionTransactions-0.1.0-web.zip

@@ -1,0 +1,11 @@
+{
+  "generatedAt": "2026-11-01T06:52:16.193Z",
+  "tests": 25,
+  "passed": 25,
+  "failed": 0,
+  "exitCode": 0,
+  "appSha256": "1e581907aec577addf52b97ab4f929008e96308e1401c6c35b47cd206d0c0bae",
+  "authority": "Original core/security/UTF-16/timing-invariant/replay tests with invented draft data; includes fresh Node process",
+  "nativeCapCutVerified": false,
+  "releaseStatus": "Independent draft-JSON release candidate; no native reopen/render/version-compatibility claim."
+}
