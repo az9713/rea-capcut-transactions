@@ -1,10 +1,20 @@
 # Caption Transactions
 
-**Correct a technical term across captions, inspect every text/style change, and keep a durable undo/replay record.** This is an original independent desktop/browser editor for a small plaintext CapCut draft-shaped JSON subset.
+Changing a word in a video subtitle can affect more than its spelling. This editor shows the text and formatting changes together, checks the supported timing and media data, and keeps a record you can undo.
 
-[Try the live workbench](https://az9713.github.io/rea-capcut-transactions/app.html) · [Read the preservation contract](https://az9713.github.io/rea-capcut-transactions/) · [Download experimental Windows build](https://github.com/az9713/rea-capcut-transactions/releases/tag/v0.1.0)
+Imagine standardizing a term across a video. A longer replacement word can shift which letters are bold, and the same saved caption text may be used in more than one place. A search-and-replace result alone does not show all those consequences.
+
+**Example:** The built-in example replaces 'Qbit' with 'qubit'. That adds a letter. The preview shows how the bold-text boundary moves and lists every caption use affected by the replacement. Unsupported formatting makes the edit stop for review rather than guessing how to move it.
+
+**What you install:** A separate caption-data editor with a Windows app and browser version.
+
+**Current scope:** This is an independent editor for a limited set of CapCut-style JSON draft data, not a new button inside CapCut. Reopening its output in CapCut and rendering the video have not been verified. A single saved JSON file is not a complete video project.
+
+[Live guide](https://az9713.github.io/rea-capcut-transactions/) · [Download packages](https://github.com/az9713/rea-capcut-transactions/releases/tag/v0.1.0)
 
 ![Actual transaction preview using an entirely invented scientific draft](docs/screenshots/workbench.png)
+
+
 
 ## The change you can try
 
