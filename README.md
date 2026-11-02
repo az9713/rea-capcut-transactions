@@ -12,6 +12,18 @@ Imagine standardizing a term across a video. A longer replacement word can shift
 
 [Live guide](https://az9713.github.io/rea-capcut-transactions/) · [Download packages](https://github.com/az9713/rea-capcut-transactions/releases/tag/v0.1.0)
 
+<!-- rea-release-expectations:start -->
+## What to expect from this release
+
+**Status: experimental.** Read the tested scope and remaining work below before choosing this release for your workflow.
+
+- **What you get:** A standalone Windows/browser caption-data editor. Its preview, grouped edits and undo history live in this tool, outside the CapCut interface.
+- **Verified so far:** Caption replacement, protected-data checks, undo and repeat edits were tested on the supported synthetic JSON draft, along with the browser and packaged app.
+- **Still needs testing or implementation:** Opening edited output in real CapCut versions, checking the resulting subtitles and rendering the video remain unverified.
+- **Relationship to the original app:** Installing this tool adds no controls to CapCut. Reliable project exchange and a workflow launched inside CapCut would require additional compatibility and integration work. The current release handles a limited draft-data subset, not a complete video project.
+
+<!-- rea-release-expectations:end -->
+
 ![Actual transaction preview using an entirely invented scientific draft](docs/screenshots/workbench.png)
 
 
